@@ -106,3 +106,38 @@ variavle의 값을 업데이트 하고 싶으면 let값을 쓰는것이다.
 
 - true
 - false
+
+### NULL
+
+아무것도 없음
+
+false와는 다름
+
+    false는 그 값이 존재
+    null은 아예 값이 존재하지 않음
+
+null은 variable 안에 어떤것이 없다는 것을 확실히 하기 위해서 사용한다.
+
+### undefine
+
+값을 주어주지 않는거
+
+---
+
+# 2-5
+
+## array
+
+array를 만들기 위해서는
+
+    [array]
+
+이 기호를 사용한다
+
+array는 0부터 센다
+
+- push: 항목 하나를 array안에 추가해주는 역할
+
+### array의 목적
+
+    하나의 variables안에 데이터의 list를 가지는것
