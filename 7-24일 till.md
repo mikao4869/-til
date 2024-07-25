@@ -85,3 +85,5 @@ function이 function 밖과 소통하는 방법: return
         어느 작업을 하고 그 작업의 결과를 알려주는 function
 
 return 하는 것은 console.log를 하는것이 아니라 결과값을 보여준다
+
+아아아
