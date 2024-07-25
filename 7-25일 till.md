@@ -71,4 +71,87 @@ type를 변경하는 법
 
 #2-14
 
-NaN인지 판별하는 방법
+## NaN인지 판별하는 방법
+
+    const age = parseInt(prompt('how old are you?'));
+    console.log(isNaN(age));
+
+isNaN은 Boolean을 반환한다.
+
+- `true` 가 나온경우:
+
+        age가 NaN 이기떄문에
+
+- `false` 가 나온경우:
+
+         age가 number 이기 떄문에
+
+true가 나오면 값이 NaN,
+false가 나오면 값이 number를 뜻한다.
+
+### conditional(조건):
+
+     if (condition)
+     {
+        condition== true
+    }
+    else{
+        condition== false
+        }
+
+_condition은 boolean이 들어가야한다._
+
+condition을 사용하는 방법 ex)
+
+    if (isNaN(age))
+    {
+    console.log('please write a number');
+    }
+
+- js는 `==` 대신 `===` 를 사용한다.
+
+---
+
+# 화살표 함수( arrow function)
+
+`=>`를 사용하여 함수를 만들어내는거
+
+### 쓰면 좋은 이유
+
+- 입출력 기능이 직관적
+
+- 소괄호 생략 가능, 중괄호 생략
+  그러나 함수의 본문에 return문만 있는 경우이다.
+
+## 화살표 함수 표현법,
+
+        =>
+
+예를 들자면
+
+    const add = (a, b) => a + b;
+
+---
+
+## 함수 표현식과 화살표 함수의 차이점?
+
+1.  우선 함수는 `function`을 사용해야한다.
+    함수 표현식은 변수에 할당될수 있다.
+
+            const add = function(a, b) {
+            return a + b;
+            };
+
+    이 코드를
+
+        const add = (a, b) => a + b;
+
+이렇게 바꿀수 있다.
+
+---
+
+2. this 바인딩
+
+일반 함수를 호출했을 때 `this`가 지정되지 않다. 하지만
+
+### 화살표 함수는 this 가 필요 없다!
