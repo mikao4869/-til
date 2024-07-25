@@ -22,5 +22,3 @@ _return 밑에있는것은 실행되지 않는다_
 ## console.log를 하고 싶지 않는 이유
 
 그 이유는 function 외부에서 values를 제공받기 위해서
-dddd
-hhh
