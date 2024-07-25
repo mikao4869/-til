@@ -86,6 +86,7 @@ function이 function 밖과 소통하는 방법: return
 
 return 하는 것은 console.log를 하는것이 아니라 결과값을 보여준다
 
+<<<<<<< HEAD
 함수를 호출할때는
 
     const calculator ={
@@ -101,3 +102,6 @@ return 하는 것은 console.log를 하는것이 아니라 결과값을 보여�
 ## 이런 짓을 하는이유(function안애서 console.log를 쓰지 않은 이유)
 
 :console에서 값을 가져올수 없었는데 코드에서 결과값을 알수 있기 떄문에
+=======
+아아아
+>>>>>>> a78d92cecf59f23cb2712074482532756b107b68
